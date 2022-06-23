@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="르탄이 - 프로필 링크">
+    <meta property="og:description" content="어서와 코딩은 처음이지?">
+    <meta property="og:image" content="lazypanda.jpg">
+    <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
+    <title>jony - 프로필 링크</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        body {
+            background-color: #8076c0;
+        }
+
+        .profile {
+            width: 100px;
+            height: 100px;
+           
+            border-radius: 100%;
+            border: 2px solid wheat;
+
+            background-image: url('lazypanda.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            color: navy;
+            font-size: 20px;
+
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .sub {
+            color: wheat;
+            font-size: 16px;
+        }
+        .cover {
+            
+            width: 300px;
+            margin: 30px auto 0 auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 10px;
+        }
+        .cover > a {
+            width:  300px;
+            height: 45px;
+
+            background-color: white;
+            border-radius: 10px;
+
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #44398A;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            /* 밑줄 없애기 */
+            text-decoration: none; 
+
+            box-shadow: 3px 3px 5px 0px black;
+        }
+        /* 커서를 올렸을 때 변화 */
+        .cover > a:hover {
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+       <div class="profile"></div>
+    <h1 class="main">서주환</h1>
+    <p class="sub">코딩 좋아하나요..?</p>  
+    <!-- 원하는 링크 넣기 -->
+    <a target="_blank" href="https://firecircle.tistory.com/">Tistory</a>
+    <a target="_blank" href="https://velog.io/@dalbyeol-_-11">Velog</a>
+    <!-- <a target="_blank" href="https://github.com/JoohwanSeo/jony">Github</a> -->
+    <!-- <a target="_blank" href="">..</a> -->
+    </div>
+   
+</body>
+</html> 
